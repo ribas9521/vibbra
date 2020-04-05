@@ -1,25 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
+/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Routes from './routes';
+
 import './App.css';
 
 function App() {
+  //Using this technique to load an extatic script after page loading
+  useEffect(() => {
+    const script1 = document.createElement('script');
+    script1.setAttribute('src', '/js/active.js');
+    document.head.appendChild(script1);
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes />
+    </Router>
   );
 }
 

@@ -4,10 +4,28 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import { applyMiddleware, createStore } from 'redux';
+import { Provider } from 'react-redux';
+
+import promiseMiddleware from 'redux-promise';
+import multi from 'redux-multi';
+import thunk from 'redux-thunk';
+
+import reducers from './reducers';
+
+const devTools =
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__();
+const store = applyMiddleware(multi, thunk, promiseMiddleware)(createStore)(
+  reducers,
+  devTools
+);
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Provider store={store}>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </Provider>,
   document.getElementById('root')
 );
 
