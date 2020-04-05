@@ -1,3 +1,3 @@
 import ProductShow from './ProductShow/ProductShow';
-
-export { ProductShow };
+import Loader from './Loader/Loader';
+export { ProductShow, Loader };

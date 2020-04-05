@@ -1,7 +1,9 @@
 import React from 'react';
-const ProductShow = ({ image, value, description }) => {
+const ProductShow = ({ image, value, description, isLoading }) => {
   return (
-    <div className="single-products-catagory clearfix">
+    <div
+      className={`single-products-catagory clearfix ${isLoading ? 'hide' : ''}`}
+    >
       <a href="shop.html">
         <img src={image} alt="" />
         <div className="hover-content">
