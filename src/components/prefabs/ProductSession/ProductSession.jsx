@@ -18,7 +18,7 @@ class ProductSession extends Component {
   }
   /**
    * After loading info from API i set a timeout of 1,5s
-   * The script that organizes this the screen needs some time
+   * The script wich organizes this the screen needs some time
    * to to it's job, and the user does not need to see it
    */
   componentDidUpdate(prevProps) {

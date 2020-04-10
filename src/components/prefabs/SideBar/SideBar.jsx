@@ -1,92 +1,111 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import { images } from '../../../assets';
-const { logo, cart, favorites, search } = images;
+// import { images } from '../../../assets';
+// const { logo, cart, favorites, search } = images;
 const SideBar = () => {
   return (
     <>
-      <div className="mobile-nav">
-        {/* <!-- Navbar Brand --> */}
-        <div className="amado-navbar-brand">
-          <a href="index.html">
-            <img src={logo} alt="" />
-          </a>
+      <nav className="navbar navbar-default">
+        <div className="container">
+          <div className="navbar-header">
+            <button
+              type="button"
+              className="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#navbar"
+              aria-expanded="false"
+              aria-controls="navbar"
+            >
+              <span className="sr-only">Toggle navigation</span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+            </button>
+            <a className="navbar-brand" href="./">
+              {' '}
+              Vibbra Store{' '}
+            </a>
+            <a
+              className="navbar-brand pull-right hidden-sm hidden-md hidden-lg"
+              href="#open-cart"
+            >
+              {' '}
+              <i className="ion-bag"></i> 7{' '}
+            </a>
+          </div>
+
+          <div id="navbar" className="navbar-collapse collapse">
+            <ul className="nav navbar-nav">
+              <li className="active">
+                <a href="./">Home</a>
+              </li>
+              <li>
+                <a href="./store/">Store</a>
+              </li>
+              <li>
+                <a href="./blog/">Blog</a>
+              </li>
+              <li>
+                <a href="./contacts/">Contacts</a>
+              </li>
+              <li className="dropdown">
+                <a
+                  href="./store/"
+                  className="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  More <i className="ion-android-arrow-dropdown"></i>
+                </a>
+                <ul className="dropdown-menu">
+                  <li>
+                    <a href="./store/product.html">Product</a>
+                  </li>
+                  <li>
+                    <a href="./about/">About Us</a>
+                  </li>
+                  <li>
+                    <a href="./checkout/">Checkout</a>
+                  </li>
+                  <li>
+                    <a href="./faq/">FAQ</a>
+                  </li>
+                  <li>
+                    <a href="./gallery/">Gallery</a>
+                  </li>
+                  <li role="separator" className="divider"></li>
+                  <li className="dropdown-header">Variations</li>
+                  <li>
+                    <a href="./blog/item-photo.html">Article Photo</a>
+                  </li>
+                  <li>
+                    <a href="./blog/item-video.html">Article Video</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          {/* <!--/.nav-collapse --> */}
+
+          <div className="search hidden-xs" data-style="hidden">
+            <div className="input">
+              <button type="button">
+                <i className="ion-ios-search"></i>
+              </button>
+
+              <input
+                type="text"
+                name="search"
+                value=""
+                placeholder="Type here..."
+              />
+            </div>
+          </div>
         </div>
-        {/* <!-- Navbar Toggler --> */}
-        <div className="amado-navbar-toggler">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div>
-      <header className="header-area clearfix">
-        {/* <!-- Close Icon --> */}
-        <div className="nav-close">
-          <i className="fa fa-close" aria-hidden="true"></i>
-        </div>
-        {/* <!-- Logo --> */}
-        <div className="logo">
-          <a href="index.html">
-            <img src={logo} alt="" />
-          </a>
-        </div>
-        {/* <!-- Amado Nav --> */}
-        <nav className="amado-nav">
-          <ul>
-            <li className="active">
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <a href="shop.html">Shop</a>
-            </li>
-            <li>
-              <a href="product-details.html">Product</a>
-            </li>
-            <li>
-              <a href="cart.html">Cart</a>
-            </li>
-            <li>
-              <a href="checkout.html">Checkout</a>
-            </li>
-          </ul>
-        </nav>
-        {/* <!-- Button Group --> */}
-        <div className="amado-btn-group mt-30 mb-100">
-          <a href="#" className="btn amado-btn mb-15">
-            %Discount%
-          </a>
-          <a href="#" className="btn amado-btn active">
-            New this week
-          </a>
-        </div>
-        {/* <!-- Cart Menu --> */}
-        <div className="cart-fav-search mb-100">
-          <a href="cart.html" className="cart-nav">
-            <img src={cart} alt="" /> Cart <span>(0)</span>
-          </a>
-          <a href="#" className="fav-nav">
-            <img src={favorites} alt="" /> Favourite
-          </a>
-          <a href="#" className="search-nav">
-            <img src={search} alt="" /> Search
-          </a>
-        </div>
-        {/* <!-- Social Button --> */}
-        <div className="social-info d-flex justify-content-between">
-          <a href="#">
-            <i className="fa fa-pinterest" aria-hidden="true"></i>
-          </a>
-          <a href="#">
-            <i className="fa fa-instagram" aria-hidden="true"></i>
-          </a>
-          <a href="#">
-            <i className="fa fa-facebook" aria-hidden="true"></i>
-          </a>
-          <a href="#">
-            <i className="fa fa-twitter" aria-hidden="true"></i>
-          </a>
-        </div>
-      </header>
+        {/* <!--/.container-fluid --> */}
+      </nav>
     </>
   );
 };

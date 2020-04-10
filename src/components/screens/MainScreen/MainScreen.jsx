@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { SearchBar, ProductSession } from '../../prefabs/';
+import { Carousel, MiniCart, Modern, ShowCase, Footer } from '../../prefabs/';
 
 class MainScreen extends Component {
   constructor(props) {
@@ -9,12 +9,22 @@ class MainScreen extends Component {
   render() {
     return (
       <>
-        <SearchBar />
-        <div className="products-catagories-area clearfix">
-          <div className="amado-pro-catagory clearfix">
-            <ProductSession />
-          </div>
-        </div>
+        <MiniCart />
+        <Carousel />
+        <hr className="offset-lg" />
+        <hr className="offset-lg" />
+
+        <Modern />
+
+        <hr className="offset-lg" />
+        <hr className="offset-md" />
+
+        <ShowCase />
+
+        <hr className="offset-lg" />
+        <hr className="offset-sm" />
+
+        <Footer />
       </>
     );
   }
