@@ -24,7 +24,7 @@ class MiniCart extends Component {
           <div className="content">
             <div className="media">
               <div className="media-left">
-                <a href="#">
+                <a href="http://localhost:3000">
                   <img
                     className="media-object"
                     src="assets/img/products/chrome-book-11.jpg"
@@ -53,7 +53,7 @@ class MiniCart extends Component {
                     className="form-control input-sm"
                     placeholder="Qty"
                     value="1"
-                    readonly=""
+                    readOnly
                   />
                   <span className="input-group-btn">
                     <button
@@ -76,7 +76,7 @@ class MiniCart extends Component {
 
             <div className="media">
               <div className="media-left">
-                <a href="#">
+                <a href="http://localhost:3000">
                   <img
                     className="media-object"
                     src="assets/img/products/chrome-book-14.jpg"
@@ -105,7 +105,7 @@ class MiniCart extends Component {
                     className="form-control input-sm"
                     placeholder="Qty"
                     value="1"
-                    readonly=""
+                    readOnly
                   />
                   <span className="input-group-btn">
                     <button
@@ -128,7 +128,7 @@ class MiniCart extends Component {
 
             <div className="media">
               <div className="media-left">
-                <a href="#">
+                <a href="http://localhost:3000">
                   <img
                     className="media-object"
                     src="assets/img/products/ipad-air.jpg"
@@ -157,7 +157,7 @@ class MiniCart extends Component {
                     className="form-control input-sm"
                     placeholder="Qty"
                     value="1"
-                    readonly=""
+                    readOnly
                   />
                   <span className="input-group-btn">
                     <button
@@ -180,7 +180,7 @@ class MiniCart extends Component {
 
             <div className="media">
               <div className="media-left">
-                <a href="#">
+                <a href="http://localhost:3000">
                   <img
                     className="media-object"
                     src="assets/img/products/mi-pad-2.jpg"
@@ -209,7 +209,7 @@ class MiniCart extends Component {
                     className="form-control input-sm"
                     placeholder="Qty"
                     value="1"
-                    readonly=""
+                    readOnly
                   />
                   <span className="input-group-btn">
                     <button
@@ -232,7 +232,7 @@ class MiniCart extends Component {
 
             <div className="media">
               <div className="media-left">
-                <a href="#">
+                <a href="http://localhost:3000">
                   <img
                     className="media-object"
                     src="assets/img/products/lenovo-yoga.jpg"
@@ -261,7 +261,7 @@ class MiniCart extends Component {
                     className="form-control input-sm"
                     placeholder="Qty"
                     value="1"
-                    readonly=""
+                    readOnly
                   />
                   <span className="input-group-btn">
                     <button
@@ -284,7 +284,7 @@ class MiniCart extends Component {
 
             <div className="media">
               <div className="media-left">
-                <a href="#">
+                <a href="http://localhost:3000">
                   <img
                     className="media-object"
                     src="assets/img/products/surface-pro.jpg"
@@ -313,7 +313,7 @@ class MiniCart extends Component {
                     className="form-control input-sm"
                     placeholder="Qty"
                     value="1"
-                    readonly=""
+                    readOnly
                   />
                   <span className="input-group-btn">
                     <button
@@ -336,7 +336,7 @@ class MiniCart extends Component {
 
             <div className="media">
               <div className="media-left">
-                <a href="#">
+                <a href="http://localhost:3000">
                   <img
                     className="media-object"
                     src="assets/img/products/asus-transformer.jpg"
@@ -365,7 +365,7 @@ class MiniCart extends Component {
                     className="form-control input-sm"
                     placeholder="Qty"
                     value="1"
-                    readonly=""
+                    readOnly
                   />
                   <span className="input-group-btn">
                     <button

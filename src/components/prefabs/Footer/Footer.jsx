@@ -57,7 +57,7 @@ const Footer = () => {
           </p>
           <hr className="offset-sm" />
 
-          <form action="index.php" method="post">
+          <form>
             <div className="input-group">
               <input
                 type="email"
@@ -79,22 +79,22 @@ const Footer = () => {
           <hr className="offset-md" />
 
           <div className="social">
-            <a href="#">
+            <a href="http://localhost:3000">
               <i className="ion-social-facebook"></i>
             </a>
-            <a href="#">
+            <a href="http://localhost:3000">
               <i className="ion-social-twitter"></i>
             </a>
-            <a href="#">
+            <a href="http://localhost:3000">
               <i className="ion-social-googleplus-outline"></i>
             </a>
-            <a href="#">
+            <a href="http://localhost:3000">
               <i className="ion-social-instagram-outline"></i>
             </a>
-            <a href="#">
+            <a href="http://localhost:3000">
               <i className="ion-social-linkedin-outline"></i>
             </a>
-            <a href="#">
+            <a href="http://localhost:3000">
               <i className="ion-social-youtube-outline"></i>
             </a>
           </div>
@@ -115,16 +115,16 @@ const Footer = () => {
             </h1>
 
             <div className="list-group">
-              <a href="#" className="list-group-item">
+              <a href="http://localhost:3000" className="list-group-item">
                 About
               </a>
-              <a href="#" className="list-group-item">
+              <a href="http://localhost:3000" className="list-group-item">
                 Terms
               </a>
-              <a href="#" className="list-group-item">
+              <a href="http://localhost:3000" className="list-group-item">
                 How to order
               </a>
-              <a href="#" className="list-group-item">
+              <a href="http://localhost:3000" className="list-group-item">
                 Delivery
               </a>
             </div>
@@ -136,13 +136,13 @@ const Footer = () => {
             </h1>
 
             <div className="list-group">
-              <a href="#" className="list-group-item">
+              <a href="http://localhost:3000" className="list-group-item">
                 Laptops
               </a>
-              <a href="#" className="list-group-item">
+              <a href="http://localhost:3000" className="list-group-item">
                 Tablets
               </a>
-              <a href="#" className="list-group-item">
+              <a href="http://localhost:3000" className="list-group-item">
                 Servers
               </a>
             </div>
@@ -154,13 +154,13 @@ const Footer = () => {
             </h1>
 
             <div className="list-group">
-              <a href="#" className="list-group-item">
+              <a href="http://localhost:3000" className="list-group-item">
                 Returns
               </a>
-              <a href="#" className="list-group-item">
+              <a href="http://localhost:3000" className="list-group-item">
                 FAQ
               </a>
-              <a href="#" className="list-group-item">
+              <a href="http://localhost:3000" className="list-group-item">
                 Contacts
               </a>
             </div>

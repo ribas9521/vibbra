@@ -1,0 +1,7 @@
+.inside-content > .container {
+  background-color: rgb(0, 0, 0, 0.3) !important;
+  border-radius: 5px;
+}
+.item-link {
+  margin-bottom: 15px;
+}
