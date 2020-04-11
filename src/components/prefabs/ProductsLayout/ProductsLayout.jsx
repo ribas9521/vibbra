@@ -4,15 +4,21 @@ import ShowCase from './ShowCase/ShowCase';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { load } from './actions';
+import { geolocated } from 'react-geolocated';
 
 class ProductsLayout extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
   componentDidMount() {
     const { load } = this.props;
-    load();
+    load(this.props.coords);
+  }
+  /**If user activate location
+   * the products will be refreshed to match his location
+   */
+  componentDidUpdate(prevProps) {
+    const { load } = this.props;
+    if (this.props.coords !== prevProps.coords) {
+      load(this.props.coords);
+    }
   }
   render() {
     const { products } = this.props;
@@ -26,6 +32,12 @@ class ProductsLayout extends Component {
     );
   }
 }
+ProductsLayout = geolocated({
+  positionOptions: {
+    enableHighAccuracy: false,
+  },
+  userDecisionTimeout: 10000,
+})(ProductsLayout);
 
 const mapStateToProps = (state) => ({
   products: state.products.products,

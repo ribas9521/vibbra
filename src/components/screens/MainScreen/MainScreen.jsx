@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Carousel, MiniCart, Footer, ProductsLayout } from '../../prefabs/';
+import { Carousel, MiniCart, ProductsLayout } from '../../prefabs/';
 
 class MainScreen extends Component {
   constructor(props) {
@@ -18,8 +18,6 @@ class MainScreen extends Component {
 
         <hr className="offset-lg" />
         <hr className="offset-sm" />
-
-        <Footer />
       </>
     );
   }

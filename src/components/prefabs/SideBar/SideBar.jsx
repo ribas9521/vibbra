@@ -40,50 +40,13 @@ const SideBar = () => {
                 <a href="./">Home</a>
               </li>
               <li>
-                <a href="./store/">Store</a>
+                <a href="./store/">Criar Negociação</a>
               </li>
               <li>
-                <a href="./blog/">Blog</a>
+                <a href="./blog/">Minhas Negociações</a>
               </li>
               <li>
-                <a href="./contacts/">Contacts</a>
-              </li>
-              <li className="dropdown">
-                <a
-                  href="./store/"
-                  className="dropdown-toggle"
-                  data-toggle="dropdown"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  More <i className="ion-android-arrow-dropdown"></i>
-                </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a href="./store/product.html">Product</a>
-                  </li>
-                  <li>
-                    <a href="./about/">About Us</a>
-                  </li>
-                  <li>
-                    <a href="./checkout/">Checkout</a>
-                  </li>
-                  <li>
-                    <a href="./faq/">FAQ</a>
-                  </li>
-                  <li>
-                    <a href="./gallery/">Gallery</a>
-                  </li>
-                  <li role="separator" className="divider"></li>
-                  <li className="dropdown-header">Variations</li>
-                  <li>
-                    <a href="./blog/item-photo.html">Article Photo</a>
-                  </li>
-                  <li>
-                    <a href="./blog/item-video.html">Article Video</a>
-                  </li>
-                </ul>
+                <a href="./contacts/">Meus Convites</a>
               </li>
             </ul>
           </div>

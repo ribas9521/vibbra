@@ -13,7 +13,7 @@ const ShowCase = ({ products }) => {
   return (
     <section className="products">
       <div className="container">
-        <h2 className="h2 upp align-center"> Tablets</h2>
+        <h2 className="h2 upp align-center"> Ofertas perto de você</h2>
         <hr className="offset-lg" />
 
         <div className="row">{renderItems(products)}</div>

@@ -2,7 +2,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import { MainScreen } from './components/screens';
-import { SideBar } from './components/prefabs';
+import { SideBar, Footer } from './components/prefabs';
 
 export default () => (
   <div className="main-content-wrapper d-flex clearfix">
@@ -15,5 +15,6 @@ export default () => (
         <MainScreen />
       </Route>
     </Switch>
+    <Footer />
   </div>
 );
