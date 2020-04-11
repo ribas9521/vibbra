@@ -1,0 +1,5 @@
+.bars .bar .title {
+  background-color: rgb(0, 0, 0, 0.3) !important;
+  border-radius: 5px;
+  padding: 5px;
+}

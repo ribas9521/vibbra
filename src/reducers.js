@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
-import productsSessionReducer from './components/prefabs/ProductSession/reducer';
+import productsLayoutReducer from './components/prefabs/ProductsLayout/reducer';
 import carouselReducer from './components/prefabs/Carousel/reducer';
 
 const rootReducer = combineReducers({
-  products: productsSessionReducer,
+  products: productsLayoutReducer,
   carousel: carouselReducer,
 });
 

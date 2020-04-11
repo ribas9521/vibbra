@@ -1,14 +1,14 @@
 import { Axios } from '../../../helpers';
-export const LOAD_FEATURED_START = 'LOAD_FEATURED_START';
-export const LOAD_FEATURED_SUCCESS = 'LOAD_FEATURED_SUCCESS';
-export const LOAD_FEATURED_FAIL = 'LOAD_FEATURED_FAIL';
+export const LOAD_PRODUCTS_START = 'LOAD_PRODUCTS_START';
+export const LOAD_PRODUCTS_SUCCESS = 'LOAD_PRODUCTS_SUCCESS';
+export const LOAD_PRODUCTS_FAIL = 'LOAD_PRODUCTS_START';
 
 export const load = () => {
   return async (dispatch) => {
     const axios = Axios.getInstance();
     try {
       dispatch(loadStart());
-      const resp = await axios.get('deal/featured');
+      const resp = await axios.post('deal/search');
       dispatch(loadSuccess({ payload: resp.data }));
       console.log(resp);
     } catch (e) {
@@ -19,12 +19,12 @@ export const load = () => {
 };
 
 const loadStart = () => ({
-  type: LOAD_FEATURED_START,
+  type: LOAD_PRODUCTS_START,
 });
 const loadSuccess = ({ payload }) => ({
-  type: LOAD_FEATURED_SUCCESS,
+  type: LOAD_PRODUCTS_SUCCESS,
   payload,
 });
 const loadFail = () => ({
-  type: LOAD_FEATURED_FAIL,
+  type: LOAD_PRODUCTS_FAIL,
 });

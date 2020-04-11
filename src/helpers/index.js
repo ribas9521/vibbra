@@ -1,3 +1,4 @@
 import Axios from './axios';
+import { toReais, getShortDescription } from './formatter';
 
-export { Axios };
+export { Axios, toReais, getShortDescription };

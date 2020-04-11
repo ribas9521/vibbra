@@ -3,7 +3,6 @@ import SideBar from './SideBar/SideBar';
 import Carousel from '../prefabs/Carousel/Carousel';
 import MiniCart from '../prefabs/MiniCart/MiniCart';
 import Footer from '../prefabs/Footer/Footer';
-import Modern from '../prefabs/ProductsLayout/Modern/Modern';
-import ShowCase from '../prefabs/ProductsLayout/ShowCase/ShowCase';
+import ProductsLayout from '../prefabs/ProductsLayout/ProductsLayout';
 
-export { SideBar, Carousel, MiniCart, Modern, ShowCase, Footer };
+export { SideBar, Carousel, MiniCart, ProductsLayout, Footer };
