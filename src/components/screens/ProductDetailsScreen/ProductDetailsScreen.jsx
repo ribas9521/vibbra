@@ -24,25 +24,28 @@ class ProducDetaiscreen extends Component {
     const { details, comments } = this.props;
     return (
       <div>
-        <hr class="offset-lg" />
-        <hr class="offset-lg" />
-        <hr class="offset-lg hidden-xs" />
-        <section class="product">
-          <div class="container">
-            <div class="row">
+        <hr className="offset-lg" />
+        <hr className="offset-lg" />
+        <hr className="offset-lg hidden-xs" />
+        <section className="product">
+          <div className="container">
+            <div className="row">
               <ProductGallery photos={details.photos} />
               <ProductTitle
                 value={details.value}
                 description={details.description}
               />
             </div>
-            <hr class="offset-sm hidden-xs" />
-            <div class="row">
+            <hr className="offset-sm hidden-xs" />
+            <div className="row">
               <ProductDetails />
               <Comments comments={comments} />
             </div>
           </div>
         </section>
+        <hr className="offset-lg" />
+        <hr className="offset-lg" />
+        <hr className="offset-lg hidden-xs" />
       </div>
     );
   }

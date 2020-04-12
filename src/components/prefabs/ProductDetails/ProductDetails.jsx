@@ -1,10 +1,10 @@
 import React from 'react';
 const ProductDetails = () => {
   return (
-    <div class="col-sm-7 white sm-padding">
-      <hr class="offset-sm visible-xs" />
+    <div className="col-sm-7 white sm-padding">
+      <hr className="offset-sm visible-xs" />
 
-      <h2 class="h1">Microsoft Surface Studio</h2>
+      <h2 className="h1">Microsoft Surface Studio</h2>
       <br />
 
       <p>
@@ -19,23 +19,23 @@ const ProductDetails = () => {
       <h2>Product specifications</h2>
       <br />
 
-      <div class="row specification">
-        <div class="col-sm-4">
+      <div className="row specification">
+        <div className="col-sm-4">
           {' '}
           <label>Operating system</label>{' '}
         </div>
-        <div class="col-sm-8">
+        <div className="col-sm-8">
           {' '}
           <p>Windows 10™</p>{' '}
         </div>
       </div>
 
-      <div class="row specification">
-        <div class="col-sm-4">
+      <div className="row specification">
+        <div className="col-sm-4">
           {' '}
           <label>Display</label>{' '}
         </div>
-        <div class="col-sm-8">
+        <div className="col-sm-8">
           <p>
             Screen: 28" PixelSense Display
             <br />
@@ -49,34 +49,34 @@ const ProductDetails = () => {
         </div>
       </div>
 
-      <div class="row specification">
-        <div class="col-sm-4">
+      <div className="row specification">
+        <div className="col-sm-4">
           {' '}
           <label>Processor</label>{' '}
         </div>
-        <div class="col-sm-8">
+        <div className="col-sm-8">
           {' '}
           <p>Quad-core 6th Gen Intel Core i5 or i7</p>{' '}
         </div>
       </div>
 
-      <div class="row specification">
-        <div class="col-sm-4">
+      <div className="row specification">
+        <div className="col-sm-4">
           {' '}
           <label>Processor technology</label>{' '}
         </div>
-        <div class="col-sm-8">
+        <div className="col-sm-8">
           {' '}
           <p>Intel Turbo Boost Technology</p>{' '}
         </div>
       </div>
 
-      <div class="row specification">
-        <div class="col-sm-4">
+      <div className="row specification">
+        <div className="col-sm-4">
           {' '}
           <label>Graphics</label>{' '}
         </div>
-        <div class="col-sm-8">
+        <div className="col-sm-8">
           {' '}
           <p>
             NVIDIA GeForce GTX 965M 2GB GPU GDDR5 memory or NVIDIA GeForce GTX
@@ -85,23 +85,23 @@ const ProductDetails = () => {
         </div>
       </div>
 
-      <div class="row specification">
-        <div class="col-sm-4">
+      <div className="row specification">
+        <div className="col-sm-4">
           {' '}
           <label>Memory</label>{' '}
         </div>
-        <div class="col-sm-8">
+        <div className="col-sm-8">
           {' '}
           <p>8GB, 16GB, or 32GB RAM</p>{' '}
         </div>
       </div>
 
-      <div class="row specification">
-        <div class="col-sm-4">
+      <div className="row specification">
+        <div className="col-sm-4">
           {' '}
           <label>Hard drive</label>{' '}
         </div>
-        <div class="col-sm-8">
+        <div className="col-sm-8">
           {' '}
           <p>
             Rapid hybrid drive options: 64GB SSD with 1TB HDD, 128GB SSD with
@@ -110,12 +110,12 @@ const ProductDetails = () => {
         </div>
       </div>
 
-      <div class="row specification">
-        <div class="col-sm-4">
+      <div className="row specification">
+        <div className="col-sm-4">
           {' '}
           <label>Wireless</label>{' '}
         </div>
-        <div class="col-sm-8">
+        <div className="col-sm-8">
           <p>
             Wi-Fi: 802.11ac Wi-Fi wireless networking, IEEE 802.11 a/b/g/n
             compatible
@@ -127,29 +127,29 @@ const ProductDetails = () => {
         </div>
       </div>
 
-      <div class="row specification">
-        <div class="col-sm-4">
+      <div className="row specification">
+        <div className="col-sm-4">
           {' '}
           <label>Power supply</label>{' '}
         </div>
-        <div class="col-sm-8">
+        <div className="col-sm-8">
           {' '}
           <p>45 W AC power adapter</p>{' '}
         </div>
       </div>
 
-      <div class="row specification">
-        <div class="col-sm-4">
+      <div className="row specification">
+        <div className="col-sm-4">
           {' '}
           <label>Battery</label>{' '}
         </div>
-        <div class="col-sm-8">
+        <div className="col-sm-8">
           {' '}
           <p>3-cell, 36 Wh Li-ion</p>{' '}
         </div>
       </div>
 
-      <hr class="offset-lg" />
+      <hr className="offset-lg" />
     </div>
   );
 };
