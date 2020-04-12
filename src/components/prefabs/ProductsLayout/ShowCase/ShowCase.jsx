@@ -4,6 +4,7 @@ const ShowCase = ({ products }) => {
   const renderItems = (products) =>
     products.map((p, i) => (
       <Item
+        key={'key' + i}
         description={p.description}
         value={p.value}
         photo={p.photos[0].src}

@@ -1,2 +1,4 @@
 import MainScreen from './MainScreen/MainScreen';
-export { MainScreen };
+import LoginScreen from './LoginScreen/LoginScreen';
+import ProductDetailsScreen from './ProductDetailsScreen/ProductDetailsScreen';
+export { MainScreen, LoginScreen, ProductDetailsScreen };

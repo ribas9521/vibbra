@@ -11,7 +11,7 @@ const Footer = () => {
               <div className="item">
                 <i className="ion-ios-telephone-outline"></i>
                 <h1>
-                  24/7 free <br /> <span>support</span>
+                  24/7 <br /> <span>Suporte</span>
                 </h1>
               </div>
             </div>
@@ -19,7 +19,7 @@ const Footer = () => {
               <div className="item">
                 <i className="ion-ios-star-outline"></i>
                 <h1>
-                  Low price <br /> <span>guarantee</span>
+                  Garantia <br /> <span> de uma boa troca</span>
                 </h1>
               </div>
             </div>
@@ -28,7 +28,7 @@ const Footer = () => {
                 <i className="ion-ios-gear-outline"></i>
                 <h1>
                   {' '}
-                  Manufacturer’s <br /> <span>warranty</span>
+                  novos e usados <br /> <span>garantia</span>
                 </h1>
               </div>
             </div>
@@ -37,7 +37,7 @@ const Footer = () => {
                 <i className="ion-ios-loop"></i>
                 <h1>
                   {' '}
-                  Full refund <br /> <span>guarantee</span>{' '}
+                  Disputas <br /> <span>Disputas</span>{' '}
                 </h1>
               </div>
             </div>
@@ -51,10 +51,8 @@ const Footer = () => {
         <div className="container align-center">
           <hr className="offset-md" />
 
-          <h1 className="h3 upp">Join our newsletter</h1>
-          <p>
-            Get more information and receive special discounts for our products.
-          </p>
+          <h1 className="h3 upp">Entre em nossa newsletter</h1>
+          <p>Receba as melhores ofertas</p>
           <hr className="offset-sm" />
 
           <form>
@@ -62,9 +60,7 @@ const Footer = () => {
               <input
                 type="email"
                 name="email"
-                value=""
                 placeholder="E-mail"
-                required=""
                 className="form-control"
               />
               <span className="input-group-btn">
@@ -106,146 +102,7 @@ const Footer = () => {
 
       <div className="container">
         <hr className="offset-md" />
-
-        <div className="row menu">
-          <div className="col-sm-3 col-md-2">
-            <h1 className="h4">
-              Information{' '}
-              <i className="ion-plus-round hidden-sm hidden-md hidden-lg"></i>{' '}
-            </h1>
-
-            <div className="list-group">
-              <a href="http://localhost:3000" className="list-group-item">
-                About
-              </a>
-              <a href="http://localhost:3000" className="list-group-item">
-                Terms
-              </a>
-              <a href="http://localhost:3000" className="list-group-item">
-                How to order
-              </a>
-              <a href="http://localhost:3000" className="list-group-item">
-                Delivery
-              </a>
-            </div>
-          </div>
-          <div className="col-sm-3 col-md-2">
-            <h1 className="h4">
-              Products{' '}
-              <i className="ion-plus-round hidden-sm hidden-md hidden-lg"></i>{' '}
-            </h1>
-
-            <div className="list-group">
-              <a href="http://localhost:3000" className="list-group-item">
-                Laptops
-              </a>
-              <a href="http://localhost:3000" className="list-group-item">
-                Tablets
-              </a>
-              <a href="http://localhost:3000" className="list-group-item">
-                Servers
-              </a>
-            </div>
-          </div>
-          <div className="col-sm-3 col-md-2">
-            <h1 className="h4">
-              Support{' '}
-              <i className="ion-plus-round hidden-sm hidden-md hidden-lg"></i>{' '}
-            </h1>
-
-            <div className="list-group">
-              <a href="http://localhost:3000" className="list-group-item">
-                Returns
-              </a>
-              <a href="http://localhost:3000" className="list-group-item">
-                FAQ
-              </a>
-              <a href="http://localhost:3000" className="list-group-item">
-                Contacts
-              </a>
-            </div>
-          </div>
-          <div className="col-sm-3 col-md-2">
-            <h1 className="h4">Location</h1>
-
-            <div className="dropdown">
-              <button
-                className="btn btn-default dropdown-toggle"
-                type="button"
-                id="dropdownMenu1"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Language
-                <span className="caret"></span>
-              </button>
-              <ul className="dropdown-menu" aria-labelledby="dropdownMenu1">
-                <li>
-                  <a href="#English">
-                    {' '}
-                    <img src="assets/img/flags/gb.png" alt="Eng" /> English
-                  </a>
-                </li>
-                <li>
-                  <a href="#Spanish">
-                    {' '}
-                    <img src="assets/img/flags/es.png" alt="Spa" /> Spanish
-                  </a>
-                </li>
-                <li>
-                  <a href="#Deutch">
-                    {' '}
-                    <img src="assets/img/flags/de.png" alt="De" /> Deutch
-                  </a>
-                </li>
-                <li>
-                  <a href="#French">
-                    {' '}
-                    <img src="assets/img/flags/fr.png" alt="Fr" /> French
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <hr className="offset-xs" />
-
-            <div className="dropdown">
-              <button
-                className="btn btn-default dropdown-toggle"
-                type="button"
-                id="dropdownMenu2"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Currency
-                <span className="caret"></span>
-              </button>
-              <ul className="dropdown-menu" aria-labelledby="dropdownMenu2">
-                <li>
-                  <a href="#Euro">
-                    <i className="ion-social-euro"></i> Euro
-                  </a>
-                </li>
-                <li>
-                  <a href="#Dollar">
-                    <i className="ion-social-usd"></i> Dollar
-                  </a>
-                </li>
-                <li>
-                  <a href="#Yen">
-                    <i className="ion-social-yen"></i> Yen
-                  </a>
-                </li>
-                <li>
-                  <a href="#Bitcoin">
-                    <i className="ion-social-bitcoin"></i> Bitcoin
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        {/*  */}
       </div>
 
       <hr />
@@ -253,7 +110,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-8 col-md-9 payments">
-            <p>Pay your order in the most convenient way</p>
+            <p>Pague do jeito mais conveniente</p>
 
             <div className="payment-icons">
               <img src="assets/img/payments/paypal.svg" alt="paypal" />

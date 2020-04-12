@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './style.css';
 class Modern extends Component {
   constructor(props) {
@@ -41,14 +42,9 @@ class Modern extends Component {
                 <div className="wrapper">
                   <div className="content">
                     <hr className="offset-sm" />
-                    <a
-                      href="./store/"
-                      rel="nofollow"
-                      className="btn btn-default black"
-                    >
-                      {' '}
-                      Compre Agora{' '}
-                    </a>
+                    <Link to="/product" className="btn btn-default black">
+                      Compre Agora
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -62,14 +58,9 @@ class Modern extends Component {
 
                 <div className="wrapper">
                   <div className="content">
-                    <hr className="offset-sm" />
-                    <a
-                      href="./store/"
-                      rel="nofollow"
-                      className="btn btn-primary black"
-                    >
+                    <Link to="/product" className="btn btn-default black">
                       Compre Agora
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -86,13 +77,9 @@ class Modern extends Component {
                 <div className="wrapper">
                   <div className="content">
                     <hr className="offset-sm" />
-                    <a
-                      href="./store/"
-                      rel="nofollow"
-                      className="btn btn-primary black"
-                    >
+                    <Link to="/product" className="btn btn-default black">
                       Compre Agora
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -107,13 +94,9 @@ class Modern extends Component {
                 <div className="wrapper">
                   <div className="content">
                     <hr className="offset-sm" />
-                    <a
-                      href="./store/"
-                      rel="nofollow"
-                      className="btn btn-primary black"
-                    >
+                    <Link to="/product" className="btn btn-default black">
                       Compre Agora
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

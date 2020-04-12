@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 const Item = ({ title, subTitle, photos, buttonText, index }) => {
   return (
     <div
@@ -23,13 +24,13 @@ const Item = ({ title, subTitle, photos, buttonText, index }) => {
               <h2 className="h1 lg upp colorful blue">{title}</h2>
               <hr className="offset-md" />
               <hr className="offset-md" />
-              <a
-                href="./store/"
-                rel="nofollow"
+
+              <Link
+                to="/product"
                 className="btn btn-primary btn-lg black item-link"
               >
                 {buttonText}
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -9,9 +9,9 @@ import './App.css';
 function App() {
   //Using this technique to load an extatic script after page loading
   useEffect(() => {
-    const script1 = document.createElement('script');
-    script1.setAttribute('src', '/js/active.js');
-    document.head.appendChild(script1);
+    // const script1 = document.createElement('script');
+    // script1.setAttribute('src', '/js/active.js');
+    // document.head.appendChild(script1);
   }, []);
   return (
     <Router>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Carousel, MiniCart, ProductsLayout } from '../../prefabs/';
-
+// import { LoginScreen } from '..';
 class MainScreen extends Component {
   constructor(props) {
     super(props);
@@ -18,6 +18,8 @@ class MainScreen extends Component {
 
         <hr className="offset-lg" />
         <hr className="offset-sm" />
+
+        {/* <LoginScreen /> */}
       </>
     );
   }

@@ -1,3 +1,14 @@
 .navbar-default {
   top: 0px;
 }
+.mCustomScrollBox {
+  display: none;
+}
+.login-container {
+  background-color: #fff;
+  padding: 30px;
+}
+.login-container a {
+  float: right;
+  margin-top: 25px;
+}
